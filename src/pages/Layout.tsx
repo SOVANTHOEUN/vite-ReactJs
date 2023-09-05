@@ -29,6 +29,10 @@ const Layout = () => {
           <li>
             <Link to="/youtubeapi">Embed-YouTube-Test-Commit</Link>
           </li>
+          <li>
+            <Link to="/favoritecolor">Favorit Color</Link>
+          </li>
+
         </ul>
       </nav>
 

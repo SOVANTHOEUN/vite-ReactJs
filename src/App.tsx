@@ -9,6 +9,7 @@ import ListGroup from "./components/ListGroup";
 import TodoComponent from "./memo/TodoComponent";
 import UnsplashApi from "./SearchUnsplashImage/UnsplashApi";
 import VideoEmbedApp from "./embed-youtube/VideoEmbedApp";
+import FavoriteColor from "./pages/FavoriteColor";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="todo" element={<TodoComponent />} />
           <Route path="unsplash" element={<UnsplashApi />} />
           <Route path="youtubeapi" element={<VideoEmbedApp />} />
+          <Route path="favoritecolor" element={<FavoriteColor />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
