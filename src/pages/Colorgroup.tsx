@@ -1,4 +1,3 @@
-// test commit
 // this is commit message test
 
 const Colorgroup = () => {
