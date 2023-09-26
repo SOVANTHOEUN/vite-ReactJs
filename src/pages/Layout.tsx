@@ -32,6 +32,9 @@ const Layout = () => {
           <li>
             <Link to="/favoritecolor">Favorit Color</Link>
           </li>
+          <li>
+            <Link to="/colorgroup">Color Group</Link>
+          </li>
 
         </ul>
       </nav>
